@@ -10,11 +10,11 @@ export const projects = [
   },
   {
     title: 'Color guess',
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image: 'https://dummyimage.com/400x200/000/fff',
+    description: "A Little game that you can use number to guess the right color RGB",
+    image: '/images/6.jpg',
     tags: ['React', 'TailwindCSS'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/x5427876/color-guess',
+    visit: 'https://color-guess-x5427876.vercel.app/',
     id: 1,
   },
   {
