@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'TRA Search',
     description: "This is a simple website that you can search tarin No., time,train type...etc in an easly way",
-    image: '/images/5.jpg',
+    image: '/images/1.jpg',
     tags: ['React', 'Axios', 'Bootstrap'],
     source: 'https://github.com/x5427876/train-info-search',
     visit: 'https://google.com',
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Color guess',
     description: "A Little game that you can use number to guess the right color RGB",
-    image: '/images/6.jpg',
+    image: '/images/2.jpg',
     tags: ['React', 'TailwindCSS'],
     source: 'https://github.com/x5427876/color-guess',
     visit: 'https://color-guess-x5427876.vercel.app/',
