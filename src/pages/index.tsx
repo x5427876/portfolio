@@ -27,7 +27,7 @@ export default function Home() {
                 <Image
                     priority
                     className="rounded-full w-auto md:w-full md:h-auto aspect-square"
-                    src="/images/avatar.jpeg"
+                    src="/avatar.jpeg"
                     alt="Picture of the author"
                     width={500}
                     height={500}
