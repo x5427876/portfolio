@@ -1,8 +1,9 @@
-import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { Playfair_Display, Roboto } from "@next/font/google";
+import { ThemeProvider } from "next-themes";
 
-import Navbar from "components/navbar";
+import "@/src/styles/globals.css";
+import Navbar from "@/src/components/navbar";
 
 const playfair = Playfair_Display({
     weight: "400",
@@ -16,14 +17,14 @@ export const roboto = Roboto({
 
 export default function App({ Component, pageProps }: AppProps) {
     return (
-        <div className={`${playfair.className}`}>
-            <div className=" h-[80px]">
+        <ThemeProvider attribute="class">
+            <div className={`${playfair.className}`}>
                 <Navbar />
+                <div className="flex justify-center items-center">
+                    <Component {...pageProps} />
+                </div>
             </div>
-            <div className="flex justify-center items-center">
-                <Component {...pageProps} />
-            </div>
-        </div>
+        </ThemeProvider>
     );
 }
 ``;

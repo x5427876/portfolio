@@ -12,10 +12,10 @@ export default function Home() {
             <Head>
                 <title>Gavin | Home</title>
             </Head>
-            <div className="w-[70%] h-[calc(100vh-80px)] py-12` flex flex-col-reverse md:flex-row justify-between text-white">
+            <div className="w-[70%] h-[calc(100vh-80px)] py-12` flex flex-col-reverse md:flex-row justify-between text-black dark:text-white transition-all">
                 <div className="w-full h-[45%] md:w-[60%] md:h-full flex flex-col justify-center">
                     <div className="text-3xl md:text-5xl font-bold">
-                        <span className="bg-gray-500">
+                        <span className="bg-gray-500 text-white">
                             Hi, My Name Is Gavin Kong.
                         </span>
                     </div>
@@ -28,19 +28,19 @@ export default function Home() {
                             href="https://www.instagram.com/kongtse.0613/"
                             target="_blank"
                         >
-                            <InstagramIcon className="w-[32px] h-[32px] mr-4 fill-white" />
+                            <InstagramIcon className="w-[32px] h-[32px] mr-4 fill-black dark:fill-white" />
                         </Link>
                         <Link
                             href="https://github.com/x5427876"
                             target="_blank"
                         >
-                            <GithubIcon className="w-[32px] h-[32px] mr-4 fill-white" />
+                            <GithubIcon className="w-[32px] h-[32px] mr-4 fill-black dark:fill-white" />
                         </Link>
                         <Link
                             href="https://www.linkedin.com/in/gavinkong/"
                             target="_blank"
                         >
-                            <LinkedIcon className="w-[32px] h-[32px] mr-4 fill-white" />
+                            <LinkedIcon className="w-[32px] h-[32px] mr-4 fill-black dark:fill-white" />
                         </Link>
                     </div>
                 </div>

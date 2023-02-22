@@ -12,7 +12,7 @@ const About = () => {
             <Head>
                 <title>Gavin | About</title>
             </Head>
-            <div className="w-[80%] text-white py-12">
+            <div className="w-[80%] text-black dark:text-white transition-all py-12">
                 <h1 className="text-3xl md:text-5xl font-bold mb-12">
                     About Me
                 </h1>
@@ -38,27 +38,27 @@ const About = () => {
                     </p>
                     <div className="flex flex-wrap">
                         <div className="flex items-center w-1/2 h-12">
-                            <TriangleIcon className="w-[12px] fill-white mr-4" />
+                            <TriangleIcon className="w-[12px] fill-black dark:fill-white mr-4" />
                             <p className="ml-1">JavaScript</p>
                         </div>
                         <div className="flex items-center w-1/2 h-12">
-                            <TriangleIcon className="w-[12px] fill-white mr-4" />
+                            <TriangleIcon className="w-[12px] fill-black dark:fill-white mr-4" />
                             <p className="ml-1">TypeScript</p>
                         </div>
                         <div className="flex items-center w-1/2 h-12">
-                            <TriangleIcon className="w-[12px] fill-white mr-4" />
+                            <TriangleIcon className="w-[12px] fill-black dark:fill-white mr-4" />
                             <p className="ml-1">React</p>
                         </div>
                         <div className="flex items-center w-1/2 h-12">
-                            <TriangleIcon className="w-[12px] fill-white mr-4" />
+                            <TriangleIcon className="w-[12px] fill-black dark:fill-white mr-4" />
                             <p className="ml-1">Redux</p>
                         </div>
                         <div className="flex items-center w-1/2 h-12">
-                            <TriangleIcon className="w-[12px] fill-white mr-4" />
+                            <TriangleIcon className="w-[12px] fill-black dark:fill-white mr-4" />
                             <p className="ml-1">AngularJS</p>
                         </div>
                         <div className="flex items-center w-1/2 h-12">
-                            <TriangleIcon className="w-[12px] fill-white mr-4" />
+                            <TriangleIcon className="w-[12px] fill-black dark:fill-white mr-4" />
                             <p className="ml-1">TailwindCSS</p>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ const About = () => {
                     target="_blank"
                 >
                     <p className="mr-4">My Resume</p>
-                    <LinkIcon className="fill-white w-[20px] h-[20px]" />
+                    <LinkIcon className="fill-black dark:fill-white w-[20px] h-[20px]" />
                 </Link>
             </div>
         </>
