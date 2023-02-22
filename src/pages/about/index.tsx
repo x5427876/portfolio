@@ -7,8 +7,8 @@ import Link from "next/link";
 
 const About = () => {
     return (
-        <div className="w-[80%] text-white pb-12">
-            <h1 className="text-3xl md:text-5xl font-bold my-12">About Me</h1>
+        <div className="w-[80%] text-white py-12">
+            <h1 className="text-3xl md:text-5xl font-bold mb-12">About Me</h1>
             <div className={`text-xl md:text-2xl ${roboto.className}`}>
                 <p className="leading-loose">
                     I am a frontend developer and have 2 years of experiences.

@@ -7,8 +7,8 @@ import LinkIcon from "../../../images/link.svg";
 
 const Projects = () => {
     return (
-        <div className="w-[80%]  text-white">
-            <h1 className="text-3xl md:text-5xl font-bold my-12">Projects</h1>
+        <div className="w-[80%] text-white py-12">
+            <h1 className="text-3xl md:text-5xl font-bold mb-12">Projects</h1>
             <div className={`${roboto.className}`}>
                 <div className="rounded-lg border-2 border-gray-500 p-5 flex flex-col md:flex-row">
                     <div className="md:w-1/2">
